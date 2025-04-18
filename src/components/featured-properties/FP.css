@@ -1,0 +1,69 @@
+.featured-properties {
+    padding: 4rem 0;
+    background-color: #f8f8f8;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+  .fp-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+  
+  
+  .property-card {
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef, #dee2e6);
+    background-size: 250% 250%;
+    animation: gradientAnimation 5s ease infinite;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  .property-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .property-info {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .property-price {
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  
+  .property-location {
+    color: #666;
+  }
+  

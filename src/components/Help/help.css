@@ -1,0 +1,55 @@
+.help-wrapper {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .help-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .help-description {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .help-options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .help-option {
+    width: 450px;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 2rem;
+  }
+  
+  .help-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+  }
+  
+  .help-option h3 {
+    font-size: 1.5rem;
+  }
+  
+  .help-option p {
+    font-size: 1rem;
+  }
+
+  .help-image > img{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+  }

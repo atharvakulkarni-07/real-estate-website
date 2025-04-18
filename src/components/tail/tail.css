@@ -1,0 +1,138 @@
+.tail-wrapper {
+    background: linear-gradient(to right, #1a1a1a, #2c2c2c);
+    color: #f6f9fc;
+    padding: 4rem 0 2rem;
+    height: 350px;
+  }
+  
+  .tail-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .tail-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .tail-section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .tail-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #54b3d6; /* Changed to blue */
+  }
+  
+  .tail-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #7cc6e8; /* Changed to lighter blue */
+  }
+  
+  .tail-section p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icons a {
+    color: #f6f9fc;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #54b3d6; /* Changed to blue */
+  }
+  
+  .tail-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tail-section ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .tail-section ul li a {
+    color: #f6f9fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .tail-section ul li a:hover {
+    color: #54b3d6; /* Changed to blue */
+  }
+  
+  .newsletter-form {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .newsletter-form input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .newsletter-form button {
+    background-color: #54b3d6; /* Changed to blue */
+    color: #1a1a1a;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #3c8dbc; /* Changed to darker blue */
+  }
+  
+  .tail-bottom {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .tail-bottom p {
+    font-size: 0.9rem;
+  }
+  
+  .tail-bottom a {
+    color: #f6f9fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .tail-bottom a:hover {
+    color: #54b3d6; /* Changed to blue */
+  }
+  
+  @media (max-width: 768px) {
+    .tail-content {
+      flex-direction: column;
+    }
+  
+    .tail-bottom {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  

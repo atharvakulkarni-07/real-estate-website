@@ -1,0 +1,71 @@
+.colab-wrapper {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .colab-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .colab-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 3rem;
+  }
+  
+  .colab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .colab-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .colab-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .colab-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .colab-logo:hover {
+    filter: grayscale(0%);
+  }
+  
+  @media (max-width: 768px) {
+    .colab-title {
+      font-size: 2rem;
+    }
+  
+    .colab-subtitle {
+      font-size: 1rem;
+    }
+  
+    .colab-grid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 1.5rem;
+    }
+  
+    .colab-item {
+      height: 80px;
+    }
+  }
+  
