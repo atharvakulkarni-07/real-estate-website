@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import "./Value.css"
+import "./value.css"
 import UnsplashImageValue from './UnsplashImageValue/unsplash';
 
 const Value = () => {
